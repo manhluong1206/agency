@@ -1,0 +1,15 @@
+.footer{
+    font-size: 17px;
+    &__social-link{
+        a{
+            padding: 8px 15px;
+            margin: 10px;
+            border: 1px solid gray;
+            border-radius: 50%;
+            background-color: black;
+            i{
+                color: #fff;
+            }
+        }
+    }
+}

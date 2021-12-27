@@ -1,0 +1,31 @@
+.service{
+    &__title{
+        h1{
+            font-size: 40px;
+        }
+    }
+    &__text{
+        p{
+            font-size: 20px;
+            color: grey;
+        }
+    }
+    &__desc{
+        &.icon{
+            i{
+                font-size: 60px;
+                background-color: yellow;
+                height: 100px;
+                width: 100px;
+                padding-top: 22px;
+                border-radius: 50%;
+                color: darkgray;
+            }
+        }
+        &.title{
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+}

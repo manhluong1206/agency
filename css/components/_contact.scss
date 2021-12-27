@@ -1,0 +1,25 @@
+.contact{
+    background-image: url(/assets/img/map-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    &__title{
+        h1{
+            font-size: 40px;
+        }
+    }
+    &__text{
+        p{
+            font-size: 20px;
+            color: grey;
+        }
+    }
+    &__btn{
+        button{
+            background-color: #ffc800 !important;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 15px 40px;
+        }
+    }
+}
